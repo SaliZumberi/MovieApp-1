@@ -13,7 +13,7 @@ public class MovieApp implements EntryPoint {
 
 	public void onModuleLoad() {
 		Button btn = new Button("Test");
-		// testcomment
+		// testcommentdsf
 		RootPanel.get().add(btn);
 		
 	}
