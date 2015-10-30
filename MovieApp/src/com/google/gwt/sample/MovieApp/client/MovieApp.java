@@ -20,7 +20,8 @@ import com.google.gwt.view.client.ListDataProvider;
 public class MovieApp implements EntryPoint {
      // Server server = new Server();
 	public void onModuleLoad() {
-		
+		Server server = new Server();
+		server.getList();
 		Button btn = new Button("Test");
 		final String goofy = "da";
 		Label lb = new Label("Label");
