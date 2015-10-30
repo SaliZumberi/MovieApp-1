@@ -1,6 +1,8 @@
 package com.google.gwt.sample.MovieApp.client;
 
 
+import java.io.IOException;
+import au.com.bytecode.opencsv.*;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,6 +20,7 @@ import com.google.gwt.view.client.ListDataProvider;
 public class MovieApp implements EntryPoint {
      // Server server = new Server();
 	public void onModuleLoad() {
+		
 		Button btn = new Button("Test");
 		final String goofy = "da";
 		Label lb = new Label("Label");
